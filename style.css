@@ -1,0 +1,244 @@
+@import url('https://font.googleapis.com/css2family=Poppins:wght@200;300;400;500;600;700&display=swp');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+ 
+body{
+    font-size: 'Poppins', sans-serif;
+    background: ;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 125px ;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+
+nav ul a:hover{
+    background: #ede7e6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.conainer{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+    
+.row{
+     display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px ;
+}
+.col-2 img{
+    width: 100%;
+    padding: 30px 0;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0; 
+}
+.col-2 a{
+    display:  inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #06b7ec;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: backgroud 0.5s; 
+}
+.col-2 a:hover{ 
+    background: #106e77;
+}
+
+p{
+    color: #555; 
+}
+
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+}
+
+/* style de la section categrie */
+
+.categories{
+    margin: 50px 0;
+}
+.col-3{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin: auto;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #444;
+    margin: 50px 0;
+}
+
+/* section des meuilleurs produits */
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transform: translate 0.4s;
+}
+.col-4 img{
+    width: 100px;
+}
+
+
+.col-4:hover{
+    transform: translate(-50px);
+}
+
+.connexion{
+    padding-top: -300px;
+    height: 200px;
+}
+
+.monproduit{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+    padding: 20px;
+}
+ 
+.monapropos{
+    margin-top: -20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    background: radial-gradient(#fff, #eaf2fb); 
+    padding: 20px;
+}
+
+.imagesapropos{
+    width: 300px;
+    height: 600px;
+}
+
+.imagegeo{
+   width: 600px; 
+}
+
+.imagepro{
+    width: 500px;
+    height: 500px;
+}
+
+.moncompte{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+    padding: 20px;
+}
+
+.monlogin{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+    padding: 20px;
+}
+
+.btn{
+    height:30px;
+    width: 150px; 
+    background: #2fbab5; 
+    font: #0a1918;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #07352a;
+}
+
+.moncontact{
+    margin-top: -20px;
+    background: radial-gradient(#fff, #eaf2fb);
+    padding: 20px;
+}
+
+.message{
+    width: 400px;
+    height: 80px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+
+}
+
+.envoyer{
+    background: #2fbab5; 
+    color: white;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+.envoyer:hover{
+    background: black;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;   
+}
+
+.champ{
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+select{
+    width: 100%;
+}
+form{
+    background: white;
+    width: 40%;
+    margin-left: 30%;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px;
+}
